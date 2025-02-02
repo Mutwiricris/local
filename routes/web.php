@@ -30,7 +30,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::middleware(['auth', 'user'])->group(function () {
+Route::middleware(['auth', 'role:user'])->prefix('user')->group(function () {
     Route::get('/dashboard', function (){
         return view('dashboard');
     })->name('dashboard');
@@ -38,7 +38,7 @@ Route::middleware(['auth', 'user'])->group(function () {
 
 Route::middleware(['auth', 'role:writer'])->group(function () {
     Route::get('/writer-dashboard', function (){
-        return view('writer.index');
+        return view('Writers.index');
     });
 });
 

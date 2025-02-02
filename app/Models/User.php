@@ -33,6 +33,17 @@ class User extends Authenticatable
         'password',
         'remember_token',
     ];
+    private mixed $role;
+
+    public function isWriter(): bool
+    {
+        return $this->role === 'writer';
+    }
+
+    public function isUser():bool
+    {
+        return $this->role === 'user';
+    }
 
     /**
      * Get the attributes that should be cast.
