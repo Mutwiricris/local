@@ -16,7 +16,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 //main user Dashboard
-Route::get('/user',function(){
+Route::get('/users/Dashboard',function(){
     return view('Users.index');
 })->middleware(['auth', 'verified'])->name('users');
 //
@@ -32,7 +32,7 @@ Route::middleware('auth')->group(function () {
 
 Route::middleware(['auth', 'role:user'])->prefix('user')->group(function () {
     Route::get('/dashboard', function (){
-        return view('dashboard');
+        return view('Users.index');
     })->name('dashboard');
 });
 

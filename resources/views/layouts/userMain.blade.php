@@ -15,7 +15,7 @@
 </head>
 <body class="font-sans bg-white dark:bg-gray-900 dark:text-white">
 
-@yield('content')
+@yield('conten')
 
 <script>
     const menuButton = document.getElementById('menu-button');

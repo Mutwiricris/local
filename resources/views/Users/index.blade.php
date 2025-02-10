@@ -1,15 +1,19 @@
-@extends('layouts.user-main')
-@section('content')
+@extends('layouts.userMain')
+@section('conten')
     <div class="flex h-screen relative">
         <!-- Sidebar -->
-        <div id="sidebar" class="w-64 font-medium text-sm space-y-6 fixed sm:relative z-20 h-full transform -translate-x-full sm:translate-x-0 transition-transform duration-300  dark:bg-gray-800">
+        <div id="sidebar"
+             class="w-64 font-medium text-sm space-y-6 fixed sm:relative z-20 h-full transform -translate-x-full sm:translate-x-0 transition-transform duration-300  dark:bg-gray-800">
 
             <nav class="space-y-2 mx-2 flex justify-between flex-col h-screen py-4">
                 <div>
                     <div class="p-6">
-                        <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Reader <span class="text-indigo-600">pro</span></h1>
+                        <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Reader <span
+                                class="text-indigo-600">pro</span></h1>
                     </div>
-                    <a href="#" class="w-full px-2 rounded-lg text-center py-2 bg-blue-800 flex justify-center text-gray-50 hover:bg-blue-700 dark:text-gray-50 dark:hover:bg-blue-700">
+
+                    <a href="#"
+                       class="w-full px-2 rounded-lg text-center py-2 bg-blue-800 flex justify-center text-gray-50 hover:bg-blue-700 dark:text-gray-50 dark:hover:bg-blue-700">
           <span class="flex items-center justify-between w-2/3">
 			Create order
           <i class="fas flex-end fa-add  shadow-lg placeholder-gray-500 bg-gray-500 p-2 rounded-lg mr-3"></i>
@@ -18,7 +22,8 @@
                     </a>
                     <!-- Add more navigation links -->
                     <div class="mt-7 py-3 border-b">
-                        <a href="#" class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
+                        <a href="#"
+                           class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
                             <div class="flex items-center justify-between">
 			<span>
 			<i class="fas fa-wallet mr-3"></i>
@@ -28,7 +33,8 @@ Balance
                             </div>
                         </a>
 
-                        <a href="#" class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
+                        <a href="#"
+                           class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
                             <div class="flex items-center justify-between">
 			<span>
 			<i class="fas fa-user mr-3"></i>
@@ -42,7 +48,8 @@ cris</span>
 
                     <div class="mt-3 py-3 border-b">
 
-                        <a href="#" class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
+                        <a href="#"
+                           class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
                             <div class="flex items-center justify-between">
 				<span>
 					<i class="fas fa-folder mr-3"></i>
@@ -51,7 +58,8 @@ cris</span>
                             </div>
                         </a>
 
-                        <a href="#" class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
+                        <a href="#"
+                           class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
                             <div class="flex items-center justify-between">
 					<span>
 						<i class="fa-solid fa-user-plus mr-3"></i>
@@ -59,7 +67,8 @@ cris</span>
 					</span>
                             </div>
                         </a>
-                        <a href="#" class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
+                        <a href="#"
+                           class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
                             <div class="flex items-center justify-between">
 						<span>
 							<i class="fa-solid fa-users mr-3"></i>
@@ -67,7 +76,8 @@ cris</span>
 						</span>
                             </div>
                         </a>
-                        <a href="#" class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
+                        <a href="#"
+                           class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
                             <div class="flex items-center justify-between">
 							<span>
 								<i class="fa-brands fa-rocketchat mr-3"></i>								conversations
@@ -77,7 +87,8 @@ cris</span>
                     </div>
 
                     <div class=" py-3 ">
-                        <a href="#" class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
+                        <a href="#"
+                           class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
                             <div class="flex items-center justify-between">
 									<span>
 										<i class="fa-solid fa-clock-rotate-left mr-3"></i>history
@@ -89,7 +100,8 @@ cris</span>
 
                 <div>
                     <div class="mt-7 py-3 border-b">
-                        <a href="#" class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
+                        <a href="#"
+                           class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
                             <div class="flex items-center justify-between">
 				<span>
 					<i class="fa-solid fa-qrcode mr-3"></i>Download app
@@ -97,7 +109,8 @@ cris</span>
                             </div>
                         </a>
 
-                        <a href="#" class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
+                        <a href="#"
+                           class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
                             <div class="flex items-center justify-between">
 					<span>
 						<i class="fa-solid fa-headset mr-3"></i>Help Desk
@@ -106,7 +119,8 @@ cris</span>
                         </a>
 
 
-                        <a href="#" class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
+                        <a href="#"
+                           class="block px-6 py-2  text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700">
                             <div class="flex items-center justify-between">
 					<span>
 						<i class="fa-regular fa-moon mr-3"></i>		Theme:light</span>
@@ -130,7 +144,8 @@ cris</span>
         <div class="flex-1 flex flex-col">
             <!-- Header -->
             <header class="bg-white dark:bg-gray-800 border-b p-4 flex justify-between items-center">
-                <button id="menu-button" class="sm:hidden text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400">
+                <button id="menu-button"
+                        class="sm:hidden text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400">
                     <i class="fas fa-bars text-xl"></i>
                 </button>
                 <div class="text-lg font-bold">
@@ -142,13 +157,16 @@ cris</span>
                     <div>
                         <select class=" text-gray-500 border rounded-lg px-3 py-2 focus:outline-none">
                             <option value="en" class="flex items-center space-x-2">
-                                <img src="https://flagcdn.com/w40/us.png" alt="US Flag" class="inline w-5 h-5 mr-2"> English
+                                <img src="https://flagcdn.com/w40/us.png" alt="US Flag" class="inline w-5 h-5 mr-2">
+                                English
                             </option>
                             <option value="es" class="flex items-center space-x-2">
-                                <img src="https://flagcdn.com/w40/es.png" alt="Spanish Flag" class="inline w-5 h-5 mr-2"> Español
+                                <img src="https://flagcdn.com/w40/es.png" alt="Spanish Flag"
+                                     class="inline w-5 h-5 mr-2"> Español
                             </option>
                             <option value="fr" class="flex items-center space-x-2">
-                                <img src="https://flagcdn.com/w40/fr.png" alt="French Flag" class="inline w-5 h-5 mr-2"> Français
+                                <img src="https://flagcdn.com/w40/fr.png" alt="French Flag" class="inline w-5 h-5 mr-2">
+                                Français
                             </option>
                         </select>
                     </div>
@@ -162,7 +180,8 @@ cris</span>
             <div class="flex-1 container p-6">
                 <div class="flex container px-7 p-4 items-center justify-between">
                     <h1 class="text-2xl font-bold mb-6">My Orders</h1>
-                    <a href="#" class=" px-9 rounded-lg text-center py-2 bg-blue-800 flex justify-center text-gray-50 hover:bg-blue-700 dark:text-gray-50 dark:hover:bg-blue-700">
+                    <a href="#"
+                       class=" px-9 rounded-lg text-center py-2 bg-blue-800 flex justify-center text-gray-50 hover:bg-blue-700 dark:text-gray-50 dark:hover:bg-blue-700">
                         Create order
 
 
@@ -224,8 +243,10 @@ cris</span>
 
                 <div class="flex flex-col items-center justify-center h-64 border  rounded-lg">
                     <div class="mb-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v5h6v-5m-2 0v-6m-8 8V7a2 2 0 012-2h6a2 2 0 012 2v10m6 8V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14" />
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-500" fill="none"
+                             viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M9 17v5h6v-5m-2 0v-6m-8 8V7a2 2 0 012-2h6a2 2 0 012 2v10m6 8V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14"/>
                         </svg>
                     </div>
                     <p class="text-gray-700 mb-4">You have no Active Orders</p>

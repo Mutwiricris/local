@@ -81,9 +81,6 @@
                     <button class="px-3 py-2 text-gray-700 hover:text-gray-900">
                         Why us
                     </button>
-                    <button class="px-3 py-2 text-gray-700 hover:text-gray-900">
-                        Writers
-                    </button>
                     <a href="{{ route('login', ['role' => 'writer']) }}">Writers</a>
 
                 </div>
